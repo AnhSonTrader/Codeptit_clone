@@ -70,6 +70,10 @@ form {
     border-color: #f80000;
 
 }
+.container .login_box .login_bot .checkbox{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
 .login_bot log {
     background-color: #bb2019;
     color: #fff;

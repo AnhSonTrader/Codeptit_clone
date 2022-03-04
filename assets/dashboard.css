@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8fa;
 }
 .header{
     height: 55px;
@@ -28,11 +29,31 @@
     height: 33.6px;
     width: 33.6px;
     margin-top: 11px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: left;
+    background-color: #bb2019;
+    box-sizing: border;
+    width: 61%;
+}
+.lang{
+    padding-left: 10px;
+}
+select{
+    position: absorlute;
+    background-color: #bb2019;
+    border-color: #bb2019;
 }
 .box{
     width: 1177.6px;
+    height: 1000px;
     margin: 30.39px auto 0;
     padding: 25.6px 39.19px;
     border-radius: 4px;
-    border: solid 1.6px #e1e4e8;
+    border: solid 1.6px #f6f8fa;
+    background-color: #ffffff;
 }
